@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Login</title>
+<link rel="stylesheet" href="../static/style.css">
+</head>
+<body class="login-page">
+
+<div class="login-container">
+    <img src="../static/ADS-removebg-preview.png" alt="Logo" class="logo">
+    <h1>Turma ADS</h1>
+    <form action="/entrar" method="POST">
+
+        <ion-icon name="person-outline"></ion-icon>
+        <input type="text" name="Usuario" id="iusuario" placeholder="Usuário" required autocomplete="off"><br><br>
+         
+        <ion-icon name="lock-closed-outline"></ion-icon>
+        <input type="password" name="Senha" id="isenha" placeholder="Senha" required maxlength="12" minlength="8"><br><br>
+
+        <button type="submit" class="entrar"> Entrar</button>
+    </form>
+</div>
+
+</body>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</html>
