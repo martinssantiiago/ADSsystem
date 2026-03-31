@@ -182,3 +182,13 @@ body.interna {
 
   display: block; /* obrigatório para largura funcionar */
 }
+
+
+img {
+  width: 50px;
+}
+
+.item {
+  display: inline;
+  
+}
